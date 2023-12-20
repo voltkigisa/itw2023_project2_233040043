@@ -3,12 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="shortcut icon" href="mazecafe-removebg.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="ico/apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="60x60" href="ico/apple-touch-icon-60x60.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="ico/apple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76" href="ico/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="ico/apple-touch-icon-152x152.png" />
+<link rel="icon" type="image/png" href="ico/favicon-196x196.png" sizes="196x196" />
+<link rel="icon" type="image/png" href="ico/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/png" href="ico/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="ico/favicon-16x16.png" sizes="16x16" />
+<link rel="icon" type="image/png" href="ico/favicon-128.png" sizes="128x128" />
+<meta name="application-name" content="&nbsp;"/>
+<meta name="msapplication-TileColor" content="#FFFFFF" />
+<meta name="msapplication-TileImage" content="ico/mstile-144x144.png" />
+<meta name="msapplication-square70x70logo" content="ico/mstile-70x70.png" />
+<meta name="msapplication-square150x150logo" content="ico/mstile-150x150.png" />
+<meta name="msapplication-wide310x150logo" content="ico/mstile-310x150.png" />
+<meta name="msapplication-square310x310logo" content="ico/mstile-310x310.png" />
+
+    <title>Maze Cafe</title>
+
+    
     <!-- link bootsrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
-    <!-- Bootstrap Icons -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!-- link animasi -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <!-- MY  css -->
     <link rel="stylesheet" href="css/style.css" />
@@ -76,18 +101,22 @@
 
       <!-- JumboTron -->
       <div class="jumbotron text-center ">
-        <img src="img/about/mazecafe-removebg.png" alt="Maze Cafe" class="rounded-circle" />
-        <h1 class="display-4">MAZE CAFE</h1>
-        <p class="lead">A Hug 'n A Mug</p>
+        <img src="img/about/mazecafe-removebg.png" alt="Maze Cafe" class="rounded-circle" data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom"/>
+        <h1 class="display-4" data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom">MAZE CAFE</h1>
+        <p class="lead" data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom">A Hug 'n A Mug</p>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#EEE7DA" fill-opacity="1" d="M0,96L34.3,122.7C68.6,149,137,203,206,192C274.3,181,343,107,411,101.3C480,96,549,160,617,170.7C685.7,181,754,139,823,149.3C891.4,160,960,224,1029,229.3C1097.1,235,1166,181,1234,149.3C1302.9,117,1371,107,1406,101.3L1440,96L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path></svg>
       </div>
       <!-- akhir Jumbotron -->
   
       <!-- Abaut -->
       <section id="about">
-        <div class="container">
-          <div class="row text-center mb-3s">
-            <div class="col">
+        <div class="container" data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom">
+          <div class="row text-center mb-3s" >
+            <div class="col" >
               <h2>About Us</h2>
             </div>
           </div>
@@ -106,15 +135,16 @@
   
       <!-- menu -->
       <section id="menu">
-        <div class="container">
+        <div class="container" >
           <div class="row text-center ">
-            <div class="col">
+            <div class="col" data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom">
               <h2>Menu</h2>
             </div>
           </div>
           <div class="row justify-content-center" >
             <div class="col mb-3">
-              <div class="card ">
+              <div class="card " data-aos="fade-right">
                 <img src="img/menu/based coffe.PNG" class="card-img-top " alt="coffe based" />
                 <div class="card-body">
                   <h5 class="card-title">CARAMEL MACCHIATO</h5>
@@ -123,16 +153,16 @@
               </div>
             </div>
             <div class="col mb-3">
-              <div class="card align-middle">
+              <div class="card" data-aos="fade-right">
                 <img src="img/menu/non coffe.PNG" class="card-img-top" alt="projects2" />
-                <div class="card-body">
+                <div class="card-body" >
                   <h5 class="card-title">RED VELVET LATTE</h5>
                   <p class="card-text">Choco Powder,cream based, sweetened condensed milk, and freshmilk</p>
                 </div>
               </div>
             </div>
             <div class="col mb-3">
-              <div class="card">
+              <div class="card" data-aos="fade-right">
                 <img src="img/menu/moctail.PNG" class="card-img-top" alt="projects3" />
                 <div class="card-body">
                   <h5 class="card-title">MAZE RUNNER</h5>
@@ -141,7 +171,7 @@
               </div>
             </div>
             <div class="col mb-3">
-              <div class="card">
+              <div class="card" data-aos="fade-right">
                 <img src="img/menu/nusantara.PNG" class="card-img-top" alt="projects4" />
                 <div class="card-body">
                   <h5 class="card-title">NASI GORENG A'LA MAZE</h5>
@@ -150,7 +180,7 @@
               </div>
             </div>
             <div class="col mb-3">
-              <div class="card">
+              <div class="card" data-aos="fade-left">
                 <img src="img/menu/main course.PNG" class="card-img-top" alt="projects5" />
                 <div class="card-body">
                   <h5 class="card-title">FISH N CHIPS</h5>
@@ -159,7 +189,7 @@
               </div>
             </div>
             <div class="col mb-3">
-              <div class="card">
+              <div class="card" data-aos="fade-left">
                 <img src="img/menu/pasta.PNG" class="card-img-top" alt="projects5" />
                 <div class="card-body">
                   <h5 class="card-title">SPAGHETTI BOLOGNESE</h5>
@@ -168,7 +198,7 @@
               </div>
             </div>
             <div class="col mb-3">
-              <div class="card">
+              <div class="card" data-aos="fade-left">
                 <img src="img/menu/snack.PNG" class="card-img-top" alt="projects5" />
                 <div class="card-body">
                   <h5 class="card-title">TAHU LADA PISAN</h5>
@@ -177,7 +207,7 @@
               </div>
             </div>
             <div class="col mb-3">
-              <div class="card">
+              <div class="card" data-aos="fade-left">
                 <img src="img/menu/pastry.PNG" class="card-img-top" alt="projects5" />
                 <div class="card-body">
                   <h5 class="card-title">COOKIES</h5>
@@ -185,26 +215,62 @@
                 </div>
               </div>
             </div>
+            <form>
+              <button type="button" class="btn" data-aos="fade-up"
+              data-aos-anchor-placement="top-bottom"> <a href="https://drive.google.com/drive/folders/1-uvF0JGKjcmy3Run4Ew6RP2RHFTgelLF" target="_blank">BUKU MENU ></a></button>
+            </form>
           </div>
         </div>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#EEE7DA" fill-opacity="1" d="M0,288L40,272C80,256,160,224,240,218.7C320,213,400,235,480,256C560,277,640,299,720,288C800,277,880,235,960,229.3C1040,224,1120,256,1200,256C1280,256,1360,224,1400,208L1440,192L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#eee7da" fill-opacity="1" d="M0,192L48,176C96,160,192,128,288,101.3C384,75,480,53,576,64C672,75,768,117,864,149.3C960,181,1056,203,1152,202.7C1248,203,1344,181,1392,170.7L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
       </section>
       <!-- Akhir menu -->
 
       <!-- gallery -->
+      <div class="gallery text-center" id="gallery">
+        <div class="col mb-3" data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom">
+          <h2>Gallery</h2>
+        </div>
+        <div class="row">
+          <div class="col mb-3" data-aos="flip-left">
+            <img src="img/gallery/foto1.jpg" class="rounded">
+          </div>
+          <div class="col mb-3" data-aos="flip-left"> 
+            <img src="img/gallery/foto 2.jpg" class="rounded">
+          </div>
+          <div class="col mb-3" data-aos="flip-left">
+            <img src="img/gallery/foto3.jpg" class="rounded">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col mb-3" data-aos="flip-left">
+            <img src="img/gallery/foto4.jpg" class="rounded">
+          </div>
+          <div class="col mb-3" data-aos="flip-left">
+            <img src="img/gallery/foto5.jpg" class="rounded">
+          </div>
+          <div class="col mb-3" data-aos="flip-left"> 
+            <img src="img/gallery/foto6.jpg" class="rounded">
+          </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#88AB8E" fill-opacity="1" d="M0,192L40,176C80,160,160,128,240,122.7C320,117,400,139,480,128C560,117,640,75,720,96C800,117,880,203,960,197.3C1040,192,1120,96,1200,90.7C1280,85,1360,171,1400,213.3L1440,256L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
+
+      </div>
+
       <!-- akhir galelliy -->
   
       <!-- Contact -->
       <section id="contact">
         <div class="container mb-5">
-          <div class="row text-center mb-3">
-            <div class="col">
+          <div class="row text-center mb-3" >
+            <div class="col" data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom">
               <h2>Contact Us</h2>
             </div>
           </div>
             <div class="row justify-content-center">
               <div class="col-md-6">
-                <form>
+                <form data-aos="fade-down">
                   <div class="mb-3">
                     <label for="name" class="form-label">Name Lengkap</label>
                     <input type="text" class="form-control" id="name" aria-describedby="name" />
@@ -224,17 +290,20 @@
             </div>
           </div>
         </div>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#88AB8E" fill-opacity="1" d="M0,192L40,176C80,160,160,128,240,122.7C320,117,400,139,480,128C560,117,640,75,720,96C800,117,880,203,960,197.3C1040,192,1120,96,1200,90.7C1280,85,1360,171,1400,213.3L1440,256L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#EEE7DA" fill-opacity="1" d="M0,288L40,272C80,256,160,224,240,218.7C320,213,400,235,480,256C560,277,640,299,720,288C800,277,880,235,960,229.3C1040,224,1120,256,1200,256C1280,256,1360,224,1400,208L1440,192L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
       </section>
       <!-- Akhir Contact -->
   
       <!-- Footer -->
       <footer class="text-white text-center pt-3 pb-3">
-        <p>© 2023 by <a href="https://www.instagram.com/mazecafe_/" class="text-white fw-bold">MAZE CAFE</a></p>
+        <p>© 2023 by <a href="https://www.instagram.com/mazecafe_/" target="_blank" class=" fw-bold">MAZE CAFE</a></p>
       </footer>
   
       <!-- Akhir Footer -->
   
+      <script>
+        AOS.init();
+      </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
